@@ -51,8 +51,21 @@ window.onload = function () {
       }
     })
 
+    // Objeto usado para checar se já inseri ou não
+    let cleanCheck = {};
+    // Array que guardarei o resultado sem repetições (com a primeira aparição de cada um apenas)
+    let cleanResult = [];
+
+    // Procedimento de limpeza
+    list.forEach(element => {
+      if (cleanCheck[element._id] !== true) {
+        cleanResult.push(element);
+        cleanCheck[element._id] = true;
+      }
+    })
+
     // Imprimo o resultado
-    resultEl.innerHTML = JSON.stringify(list, undefined, 2);
+    resultEl.innerHTML = JSON.stringify(cleanResult, undefined, 2);
     // result.map(
     //   item => resultEl.innerHTML = resultEl.innerHTML + `<li class="list-group-item">${item}</li>`
     // );

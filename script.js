@@ -31,7 +31,25 @@ window.onload = function () {
     }
 
     // Ordeno a entrada do usuário
-    list.sort((a,b) => a[listIdPropEl.value] < b[listIdPropEl.value] ? -1 : 1)
+    list.sort((a, b) => {
+      if (a[listIdPropEl.value] < b[listIdPropEl.value]) {
+        return -1;
+      }
+      else if (a[listIdPropEl.value] > b[listIdPropEl.value]) {
+        return 1;
+      }
+      else { // Se forem iguais, desempatar pelo timestamp de criação (o mais antigo primeiro)
+        if (a['data']['timestamp'] < b['data']['timestamp']) {
+          return -1;
+        }
+        else if (a['data']['timestamp'] > b['data']['timestamp']) {
+          return 1;
+        }
+        else {
+          return 0;
+        }
+      }
+    })
 
     // Imprimo o resultado
     resultEl.innerHTML = JSON.stringify(list, undefined, 2);

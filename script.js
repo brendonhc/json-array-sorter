@@ -1,15 +1,4 @@
 /**
- * Função de ordenação do Brendon Hudson para arrays com objetos JavaScript
- * 
- * @param idProp é o id da propriedade usada para ordenar o vetor
- * @author Brendon Hudson
- */
-const hudSort = (idProp) => {
-
-}
-
-
-/**
  * Controlador principal que é executado quando todos os componentes da página terminarem de carregar.
  */
 window.onload = function () {
@@ -35,9 +24,5 @@ window.onload = function () {
 
     // Imprimo o resultado
     resultEl.innerHTML = JSON.stringify(list, undefined, 2);
-    // result.map(
-    //   item => resultEl.innerHTML = resultEl.innerHTML + `<li class="list-group-item">${item}</li>`
-    // );
-
   });
 }

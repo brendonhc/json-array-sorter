@@ -1,7 +1,7 @@
 # JSON Array Sorter
 
 <h4 align="center">
-  ☕ Embaralhador JS
+  ☕ Ordenador JSON em JS
 </h4>
 
 <p align="center">

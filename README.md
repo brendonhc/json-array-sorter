@@ -9,11 +9,11 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/brendonhc/json-array-sorter.svg">
   
-  <a href="https://github.com/Rocketseat/semana-omnistack-9/commits/master">
+  <a href="https://github.com/brendonhc/json-array-sorter/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/brendonhc/json-array-sorter.svg">
   </a>
 
-  <a href="https://github.com/Rocketseat/semana-omnistack-9/issues">
+  <a href="https://github.com/brendonhc/json-array-sorter/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/brendonhc/json-array-sorter.svg">
   </a>
 
@@ -34,7 +34,7 @@ Grandes arrays com objetos no formato JSON que precisam ser ordenados a partir d
 
 ## Como usar
 
-- Primeiro acesse o [aplicativo web do ordenador](brendonhc.github.io).
+- Primeiro acesse o [aplicativo web do ordenador](https://brendonhc.github.io/json-array-sorter/).
 - Insira o arr de objetos no formato JSON no primeiro campo.
 - Insira o nome do atributo que será usado como chave para a ordenação.
 - Clique no botão "SORT!".

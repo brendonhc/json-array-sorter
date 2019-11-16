@@ -23,6 +23,7 @@
 <p align="center">
   <a href="#motivação">Motivação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#como-usar">Como Usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#implementação">Implementação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -34,11 +35,17 @@ Grandes arrays com objetos no formato JSON que precisam ser ordenados a partir d
 
 ## Como usar
 
+É muito simples:
+
 - Primeiro acesse o [aplicativo web do ordenador](https://brendonhc.github.io/json-array-sorter/).
-- Insira o arr de objetos no formato JSON no primeiro campo.
+- Insira o array de objetos no formato JSON no primeiro campo.
 - Insira o nome do atributo que será usado como chave para a ordenação.
-- Clique no botão "SORT!".
+- Clique no botão "**SORT!**".
 - O resultado será impresso no formato JSON logo abaixo do botão.
+
+## Implementação
+
+A implementação foi feita utilizando basicamente [*HTML5*](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5) para estruturar a página principal do aplicativo e os campos de entrada e saída de dados, [*Bootstrap*](https://getbootstrap.com/) para estilizar de maneira bonita e resposíva, e por fim, toda a lógica do tratamento dos dados feita em [*JavaScript*](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript).
 
 ## :memo: Licença
 
